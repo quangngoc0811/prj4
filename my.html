@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nền Tảng Lập Trình</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div id="content">
+        <main id="main-doc">
+            <section id='1' class="main-section">
+                <header class="main-header">Pseudo-code và flowchart</header>
+                <p>Chúng ta tuân theo những cấu trúc tuần tự, mà trong đó luồng thực thi chương trình đi qua tất cả các
+                    chỉ thị bắt đầu từ chỉ thị đầu tiên. Chúng ta có thể bắt gặp các điều kiện trong chương trình, dựa
+                    trên các điều kiện này hướng thực thi của chương trình có thể rẽ nhánh. Những cấu trúc cho việc rẽ
+                    nhánh như là cấu trúc chọn lựa, cấu trúc điều kiện hay rẽ nhánh.</p>
+                <p>Dưới đây là một số ưu điểm của pseudocode:</p>
+                <ul>
+                    <li>Pseudocode là một trong những cách tốt nhất để bắt đầu triển khai một thuật toán. Nhờ
+                        pseudocode, khả năng đọc code của các lập trình viên tương lai dễ dàng được cải thiện. Cho dù
+                        sau này họ lựa chọn sử dụng loại ngôn ngữ lập trình nào đi chăng nữa.</li>
+                    <li>Trong rất nhiều ngành nghề, tiếp cận tài liệu đóng vai trò cực kỳ quan trọng. Và điều này cũng
+                        tương tự trong ngành công nghiệp phần mềm. Ở đó, pseudocode đang đóng vai trò như cầu nối giữa
+                        phần mềm với thuật toán hoặc lưu đồ (flowchart). Lúc này, pseudocode chính là tài liệu thô
+                        truyền tải những yêu cầu của dự án đến các thành viên.</li>
+                    <li>Pseudocode giúp cho việc gỡ lỗi hệ thống trở nên dễ dàng.</li>
+                    <li>Pseudocode giúp cho giai đoạn viết code của lập trình viên trở nên dễ dàng hơn. Bởi, mục tiêu
+                        chính của mã giả chính là giải thích chính xác từng dòng, từng đoạn trong chương trình.</li>
+                    <li>...</li>
+                </ul>
+            </section>
+            <section id='2' class="main-section">
+                <header class="main-header">Cấu trúc IF (Nếu)</header>
+                <p>Cấu trúc chọn lựa cơ bản là cấu trúc ‘IF`. Ðể hiểu cấu trúc này chúng ta hãy xem xét ví dụ trong đó
+                    khách hàng được giảm giá nếu mua trên 100 đồng. Mỗi lần khách hàng trả tiền, một đoạn mã chương
+                    trình sẽ kiểm tra xem lượng tiền trả có quá 100 đồng không? Nếu đúng thế thì sẽ giảm giá 10% của
+                    tổng số tiền trả, ngược lại thì không giảm giá.</p>
+                <p>Ðiều này được minh họa sơ lược qua mã giả như sau:</p>
+                <div id="code"><code>IF khách hàng mua trên 100 thì giảm giá 10%</code></div>
+                <p>Cấu trúc dùng ở đây là câu lệnh IF</p>
+                <p>Hình thức chung cho câu lệnh IF (cấu trúc IF) như sau:</p>
+                <div id="code">
+                    <code>
+                    IF Điều kiện <br>
+                    &emsp; Các câu lệnh // Phần thân của cấu trúc IF  <br>
+                    END IF 
+                </code>
+                </div>
+            </section>
+            <section id='3' class="main-section">
+                <header class="main-header">Cấu trúc IF…ELSE</header>
+                <p>Ngôn ngữ lập trình cung cấp cho chúng ta cấu trúc IF…ELSE. Dùng cấu trúc này sẽ hiệu quả và tốt hơn
+                    để giải quyết vấn đề. Cấu trúc IF …ELSE giúp lập trình viên chỉ làm một phép so sánh và sau đó thực
+                    thi các bước tùy theo kết quả của phép so sánh là True (đúng) hay False (sai). </p>
+                <p>Cấu trúc chung của câu lệnh IF…ELSE như sau:</p>
+                <div id="code">
+                    <code>
+                    IF Điều kiện <br>
+                    &emsp;  Câu lệnh 1 <br>
+                    ELSE <br>
+                    &emsp;  Câu lệnh 2 <br>
+                    END IF 
+                </code>
+                </div>
+            </section>
+            <section id='4' class="main-section">
+                <header class="main-header">Ða điều kiện sử dụng AND/OR</header>
+                <p>Cấu trúc IF…ELSE làm giảm độ phức tạp, gia tăng tính hữu hiệu. Ở một mức độ nào đó, nó cũng nâng cao
+                    tính dễ đọc của mã. Các thí dụ IF chúng ta đã đề cập đến thời điểm này thì khá đơn giản. Chúng chỉ
+                    có một điều kiện trong IF để đánh giá.</p>
+            </section>
+            <section id='5' class="main-section">
+                <header class="main-header">Vòng lặp</header>
+                <p>Một chương trình máy tính là một tập các câu lệnh sẽ được thực hiện tuần tự. Nó có thể lặp lại một số
+                    bước với số lần lặp xác định theo yêu cầu của bài toán hoặc đến khi một số điều kiện nhất định được
+                    thỏa.</p>
+                <p>Ta xem mã giả của cấu trúc vòng lặp như sau:</p>
+                <div id="code"><code>
+                    Do loop 1000 times <br>
+                    &emsp; DISPLAY "Scooby <br>
+                    END loop
+                </code>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div id="menu">
+        <nav id="navbar">
+            <header id='title'>Nền Tảng Lập Trình</header>
+            <a href="#1">Pseudo-code và flowchart</a>
+            <a href="#2">Cấu trúc IF (Nếu)</a>
+            <a href="#3">Cấu trúc IF…ELSE</a>
+            <a href="#4">Ða điều kiện sử dụng AND/OR</a>
+            <a href="#5">Vòng lặp</a>
+        </nav>
+    </div>
+</body>
+</html>
